@@ -19,7 +19,6 @@ else
   # Reset session
   source "$ZDOTDIR/.zshrc"
   clear
-  neofetch
   echo "Finished setting up Zsh."
 fi
 
