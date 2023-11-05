@@ -6,6 +6,8 @@ The Zsh config files that I use on all of my linux systems.
 
 This config is only tested on Linux, and is not guaranteed to work in any other operating system.
 
+This config uses 'Shift+Enter' for some key-bindings. [Ensure your terminal emulator is configured to support this.](https://stackoverflow.com/questions/16359878/how-to-map-shift-enter)
+
 ## Installation
 
 * Install [Zsh.](https://www.zsh.org/)
