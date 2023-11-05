@@ -8,6 +8,8 @@ This config is only tested on Linux, and is not guaranteed to work in any other 
 
 This config uses 'Shift+Enter' for some key-bindings. [Ensure your terminal emulator is configured to support this.](https://stackoverflow.com/questions/16359878/how-to-map-shift-enter)
 
+Some programs, like many desktop environments, only look for Zsh config files in `$HOME`. I would recommend creating sylinks to `$ZDOTDIR/.zshrc` and `$ZDOTDIR/.zshenv` in `$HOME` if you run into any issues.
+
 ## Installation
 
 * Install [Zsh.](https://www.zsh.org/)
