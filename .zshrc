@@ -1,6 +1,9 @@
 # This script is for configuring the current 
 # user's Zsh sessions
 
+# Source Zap config if it is found
+[ -f "$ZDOTDIR/zap/zap.zsh" ] && source "$ZDOTDIR/zap/zap.zsh"
+
 # Displays neofetch on shell startup
 neofetch
 
@@ -21,6 +24,11 @@ alias grep="grep --color=auto"
 alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
+
+# Bindings...
+#
+# Execute Zap autocomplete suggestions
+bindkey '\E[13;2u' autosuggest-execute # Shift+Enter
 
 # Special exports...
 #
