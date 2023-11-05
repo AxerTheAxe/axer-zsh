@@ -15,3 +15,11 @@ This config is only tested on Linux, and is not guaranteed to work in any other 
 ```sh
 git clone https://github.com/axertheaxe/axer-zsh.git $ZDOTDIR
 ```
+* Re-source your shell.
+```sh
+source $ZDOTDIR/.zshrc
+```
+
+## License
+
+This project is public domain. See [LICENSE](LICENSE) for more information.
