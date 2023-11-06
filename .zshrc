@@ -28,6 +28,14 @@ alias cp="cp -i"
 # Execute Zap autocomplete suggestions
 bindkey "\E[13;2u" autosuggest-execute # Shift+Enter
 
+# Execute output clearing function
+bindkey "^l" clear_output
+
 # Special exports...
 # Makes GPG use the current terminal when singing
 export GPG_TTY=$(tty)
+
+# Functions...
+# Clear terminal output
+clear_output() { clear; zle reset-prompt }
+zle -N clear_output
