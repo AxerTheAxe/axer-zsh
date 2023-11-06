@@ -23,7 +23,6 @@ else
 fi
 
 # Zap plugins...
-#
 # ZshAutoSuggestions:
 # Command suggesetions for Zsh
 plug "zsh-users/zsh-autosuggestions"
