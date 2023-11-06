@@ -1,3 +1,5 @@
+#!/usr/bin/zsh
+
 # This script is for configuring the current 
 # user's Zsh sessions
 

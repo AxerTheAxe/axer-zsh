@@ -1,3 +1,5 @@
+#!/usr/bin/zsh
+
 # This file is for declaring exports in the
 # current user's Zsh sessions
 
