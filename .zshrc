@@ -29,6 +29,7 @@ alias cp="cp -i"
 # Bindings...
 # Execute Zap autocomplete suggestions
 bindkey "\E[13;2u" autosuggest-execute # Shift+Enter
+bindkey "\E[13;5u" autosuggest-accept # Ctrl+Enter
 
 # Execute output clearing function
 bindkey "^l" clear_output
