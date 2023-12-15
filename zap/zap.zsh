@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 # This file is for bootstrapping and configuring Zap, 
 # a package manager for Zsh

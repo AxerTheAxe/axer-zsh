@@ -1,4 +1,4 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 # Source Zap's configuration if it is found
 [ -f "$ZDOTDIR/zap/zap.zsh" ] && source "$ZDOTDIR/zap/zap.zsh"
