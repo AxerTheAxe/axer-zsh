@@ -1,12 +1,13 @@
 #!/usr/bin/zsh
 
-# This file is for declaring exports in the
-# current user's Zsh sessions
+export ZDOTDIR=$HOME/.config/zsh
 
-# Exports...
-# Set theme for AppImages using GTK
+export GNUPGHOME=$HOME/.config/gnupg
+
+export GTK_USE_PORTAL=1
+
 export APPIMAGE_GTK_THEME=Breeze
 
-# Toggles the use of the XDG desktop
-# portal for GTK applications
-export GTK_USE_PORTAL=1
+export RUSTUP_HOME=$HOME/.config/rustup
+
+export PYTHONSTARTUP=$HOME/.config/python/init.py
